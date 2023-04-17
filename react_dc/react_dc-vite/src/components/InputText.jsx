@@ -1,6 +1,9 @@
-export function InputText() {
+export function InputText(props) {
+    
+    console.log(props)
+
     return(
-        <input type="text" name="nome" id="nome" placeholder="nome" />
+        <input type={props.type} name={props.name} id={props.id} placeholder={props.placeholder} />
     );
 }
 
