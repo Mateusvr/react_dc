@@ -4,15 +4,15 @@ export const MyNavBar = () => {
 
     const menus = [
         {
-            nome : 'Produtos',
+            nome: 'Produtos',
             link: '/produtos'
         },
         {
-            nome : 'Usuários',
+            nome: 'Usuários',
             link: '/usuarios'
         },
         {
-            nome : 'Categorias',
+            nome: 'Categorias',
             link: '/categorias'
         },
     ]
@@ -21,7 +21,7 @@ export const MyNavBar = () => {
         menus.map
     }
 
-return (
+    return (
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
