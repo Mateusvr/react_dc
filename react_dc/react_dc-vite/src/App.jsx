@@ -1,5 +1,9 @@
-  import './App.css'
+//import './App.css'
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+
 import {InputText} from './components/InputText'
+import { MyNavBar } from './components/MyNavBar'
 import { MyTitle } from './components/MyTitle'
 
 <MyTitle />
@@ -8,19 +12,7 @@ function App() {
 
   return (
     <>
-      {/* <h1>Olá, mundo!</h1> */}
-    <MyTitle title="Olá, mundo!!" />
-      
-      <InputText
-      id='nome'
-      name='nome'
-      placeholder='nome' />
-      <br />
-      <InputText
-      id='sobrenome'
-      name='sobrenome'
-      placeholder='sobrenome' />  
-
+     <MyNavBar />
     </>
   )
 }
